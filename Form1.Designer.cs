@@ -48,90 +48,124 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(376, 57);
+            this.label1.Font = new System.Drawing.Font("MS UI Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.label1.Location = new System.Drawing.Point(75, 37);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 28);
+            this.label1.Size = new System.Drawing.Size(168, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Form";
+            this.label1.Text = "Get Started";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textbox_serverip
             // 
-            this.textbox_serverip.Location = new System.Drawing.Point(294, 120);
+            this.textbox_serverip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.textbox_serverip.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textbox_serverip.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textbox_serverip.Location = new System.Drawing.Point(27, 122);
+            this.textbox_serverip.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textbox_serverip.Multiline = true;
             this.textbox_serverip.Name = "textbox_serverip";
-            this.textbox_serverip.Size = new System.Drawing.Size(256, 20);
+            this.textbox_serverip.Size = new System.Drawing.Size(261, 27);
             this.textbox_serverip.TabIndex = 1;
             this.textbox_serverip.TextChanged += new System.EventHandler(this.textbox_serverip_TextChanged);
             // 
             // Server_ip
             // 
             this.Server_ip.AutoSize = true;
-            this.Server_ip.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Server_ip.Location = new System.Drawing.Point(152, 120);
+            this.Server_ip.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Server_ip.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.Server_ip.Location = new System.Drawing.Point(23, 100);
+            this.Server_ip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Server_ip.Name = "Server_ip";
-            this.Server_ip.Size = new System.Drawing.Size(66, 16);
+            this.Server_ip.Size = new System.Drawing.Size(69, 18);
             this.Server_ip.TabIndex = 2;
             this.Server_ip.Text = "Server ip";
             // 
             // textbox_dbname
             // 
-            this.textbox_dbname.Location = new System.Drawing.Point(294, 177);
+            this.textbox_dbname.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.textbox_dbname.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textbox_dbname.Font = new System.Drawing.Font("Bahnschrift", 12F);
+            this.textbox_dbname.Location = new System.Drawing.Point(27, 200);
+            this.textbox_dbname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textbox_dbname.Multiline = true;
             this.textbox_dbname.Name = "textbox_dbname";
-            this.textbox_dbname.Size = new System.Drawing.Size(256, 20);
+            this.textbox_dbname.Size = new System.Drawing.Size(261, 27);
             this.textbox_dbname.TabIndex = 1;
             // 
             // db_name
             // 
             this.db_name.AutoSize = true;
-            this.db_name.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.db_name.Location = new System.Drawing.Point(152, 177);
+            this.db_name.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold);
+            this.db_name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.db_name.Location = new System.Drawing.Point(23, 177);
+            this.db_name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.db_name.Name = "db_name";
-            this.db_name.Size = new System.Drawing.Size(110, 16);
+            this.db_name.Size = new System.Drawing.Size(115, 18);
             this.db_name.TabIndex = 2;
             this.db_name.Text = "Database Name";
             // 
             // textbox_userid
             // 
-            this.textbox_userid.Location = new System.Drawing.Point(294, 234);
+            this.textbox_userid.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.textbox_userid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textbox_userid.Font = new System.Drawing.Font("Bahnschrift", 12F);
+            this.textbox_userid.Location = new System.Drawing.Point(27, 272);
+            this.textbox_userid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textbox_userid.Multiline = true;
             this.textbox_userid.Name = "textbox_userid";
-            this.textbox_userid.Size = new System.Drawing.Size(256, 20);
+            this.textbox_userid.Size = new System.Drawing.Size(261, 27);
             this.textbox_userid.TabIndex = 1;
             // 
             // user_id
             // 
             this.user_id.AutoSize = true;
-            this.user_id.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user_id.Location = new System.Drawing.Point(152, 234);
+            this.user_id.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold);
+            this.user_id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.user_id.Location = new System.Drawing.Point(23, 249);
+            this.user_id.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user_id.Name = "user_id";
-            this.user_id.Size = new System.Drawing.Size(55, 16);
+            this.user_id.Size = new System.Drawing.Size(58, 18);
             this.user_id.TabIndex = 2;
             this.user_id.Text = "User ID";
             // 
             // textbox_userpass
             // 
-            this.textbox_userpass.Location = new System.Drawing.Point(294, 291);
+            this.textbox_userpass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.textbox_userpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textbox_userpass.Font = new System.Drawing.Font("Bahnschrift", 12F);
+            this.textbox_userpass.Location = new System.Drawing.Point(27, 346);
+            this.textbox_userpass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textbox_userpass.Multiline = true;
             this.textbox_userpass.Name = "textbox_userpass";
-            this.textbox_userpass.Size = new System.Drawing.Size(256, 20);
+            this.textbox_userpass.Size = new System.Drawing.Size(261, 27);
             this.textbox_userpass.TabIndex = 1;
             // 
             // user_pass
             // 
             this.user_pass.AutoSize = true;
-            this.user_pass.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user_pass.Location = new System.Drawing.Point(152, 291);
+            this.user_pass.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold);
+            this.user_pass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.user_pass.Location = new System.Drawing.Point(23, 324);
+            this.user_pass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user_pass.Name = "user_pass";
-            this.user_pass.Size = new System.Drawing.Size(103, 16);
+            this.user_pass.Size = new System.Drawing.Size(111, 18);
             this.user_pass.TabIndex = 2;
             this.user_pass.Text = "User Password";
             // 
             // login_btn
             // 
-            this.login_btn.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.login_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.login_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.login_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.login_btn.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Bold);
             this.login_btn.ForeColor = System.Drawing.SystemColors.Control;
-            this.login_btn.Location = new System.Drawing.Point(539, 468);
+            this.login_btn.Location = new System.Drawing.Point(26, 525);
+            this.login_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.login_btn.Name = "login_btn";
-            this.login_btn.Size = new System.Drawing.Size(164, 45);
+            this.login_btn.Size = new System.Drawing.Size(261, 40);
             this.login_btn.TabIndex = 3;
             this.login_btn.Text = "Login";
             this.login_btn.UseVisualStyleBackColor = false;
@@ -139,11 +173,15 @@
             // 
             // clr_btn
             // 
-            this.clr_btn.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.clr_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.clr_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.clr_btn.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clr_btn.ForeColor = System.Drawing.SystemColors.Control;
-            this.clr_btn.Location = new System.Drawing.Point(98, 468);
+            this.clr_btn.Location = new System.Drawing.Point(27, 465);
+            this.clr_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.clr_btn.Name = "clr_btn";
-            this.clr_btn.Size = new System.Drawing.Size(164, 45);
+            this.clr_btn.Size = new System.Drawing.Size(261, 43);
             this.clr_btn.TabIndex = 3;
             this.clr_btn.Text = "Clear";
             this.clr_btn.UseVisualStyleBackColor = false;
@@ -151,12 +189,14 @@
             // 
             // exit_btn
             // 
-            this.exit_btn.BackColor = System.Drawing.Color.LightCoral;
+            this.exit_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.exit_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exit_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exit_btn.ForeColor = System.Drawing.Color.White;
-            this.exit_btn.Location = new System.Drawing.Point(771, 21);
+            this.exit_btn.Location = new System.Drawing.Point(286, -1);
+            this.exit_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.exit_btn.Name = "exit_btn";
-            this.exit_btn.Size = new System.Drawing.Size(40, 36);
+            this.exit_btn.Size = new System.Drawing.Size(36, 31);
             this.exit_btn.TabIndex = 4;
             this.exit_btn.Text = "X";
             this.exit_btn.UseVisualStyleBackColor = false;
@@ -164,30 +204,42 @@
             // 
             // dlt_regbtn
             // 
-            this.dlt_regbtn.Location = new System.Drawing.Point(464, 329);
+            this.dlt_regbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.dlt_regbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dlt_regbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dlt_regbtn.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.dlt_regbtn.ForeColor = System.Drawing.Color.White;
+            this.dlt_regbtn.Location = new System.Drawing.Point(187, 401);
+            this.dlt_regbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dlt_regbtn.Name = "dlt_regbtn";
-            this.dlt_regbtn.Size = new System.Drawing.Size(85, 36);
+            this.dlt_regbtn.Size = new System.Drawing.Size(101, 33);
             this.dlt_regbtn.TabIndex = 5;
-            this.dlt_regbtn.Text = "clear saved passwords";
-            this.dlt_regbtn.UseVisualStyleBackColor = true;
+            this.dlt_regbtn.Text = "Clear Passwords";
+            this.dlt_regbtn.UseVisualStyleBackColor = false;
             this.dlt_regbtn.Click += new System.EventHandler(this.dlt_regbtn_Click);
             // 
             // save_regbtn
             // 
-            this.save_regbtn.Location = new System.Drawing.Point(155, 329);
+            this.save_regbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.save_regbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.save_regbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.save_regbtn.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.save_regbtn.ForeColor = System.Drawing.Color.White;
+            this.save_regbtn.Location = new System.Drawing.Point(27, 401);
+            this.save_regbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.save_regbtn.Name = "save_regbtn";
-            this.save_regbtn.Size = new System.Drawing.Size(85, 36);
+            this.save_regbtn.Size = new System.Drawing.Size(101, 33);
             this.save_regbtn.TabIndex = 6;
-            this.save_regbtn.Text = "save passwords";
-            this.save_regbtn.UseVisualStyleBackColor = true;
+            this.save_regbtn.Text = "Save Password";
+            this.save_regbtn.UseVisualStyleBackColor = false;
             this.save_regbtn.Click += new System.EventHandler(this.save_regbtn_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(837, 570);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(321, 617);
             this.Controls.Add(this.save_regbtn);
             this.Controls.Add(this.dlt_regbtn);
             this.Controls.Add(this.exit_btn);
@@ -202,8 +254,13 @@
             this.Controls.Add(this.textbox_dbname);
             this.Controls.Add(this.textbox_serverip);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login Form";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
