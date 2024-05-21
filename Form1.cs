@@ -82,6 +82,7 @@ namespace OOADproject_CarRental
                 businessLogic.SaveToRegistry("UserName", username);
                 businessLogic.SaveToRegistry("UserPassword", userpassword);
                 hasRunBefore = true;
+                MessageBox.Show("Data Has Been Added");
             }
             else
             {

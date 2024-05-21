@@ -106,6 +106,7 @@
             this.Controls.Add(this.customer_btn);
             this.Controls.Add(this.car_reg_btn);
             this.Name = "MainMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainMenu";
             this.ResumeLayout(false);
 

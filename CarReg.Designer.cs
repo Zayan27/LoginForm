@@ -42,6 +42,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.carDataGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +51,7 @@
             this.carDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.carDataGrid.Location = new System.Drawing.Point(394, 58);
             this.carDataGrid.Name = "carDataGrid";
-            this.carDataGrid.Size = new System.Drawing.Size(380, 340);
+            this.carDataGrid.Size = new System.Drawing.Size(432, 340);
             this.carDataGrid.TabIndex = 27;
             // 
             // button5
@@ -61,6 +62,7 @@
             this.button5.TabIndex = 26;
             this.button5.Text = "CANCEL";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -68,8 +70,9 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 36);
             this.button4.TabIndex = 25;
-            this.button4.Text = "CLEAR";
+            this.button4.Text = "VIEW";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -79,6 +82,7 @@
             this.button3.TabIndex = 24;
             this.button3.Text = "DELETE";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -88,6 +92,7 @@
             this.button2.TabIndex = 23;
             this.button2.Text = "EDIT";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -171,11 +176,23 @@
             this.label1.TabIndex = 14;
             this.label1.Text = "CAR REG.NO.";
             // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(779, 11);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(46, 30);
+            this.button6.TabIndex = 28;
+            this.button6.Text = "X";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // CarReg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(862, 450);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.carDataGrid);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -191,6 +208,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "CarReg";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CarReg";
             this.Load += new System.EventHandler(this.CarReg_Load);
             ((System.ComponentModel.ISupportInitialize)(this.carDataGrid)).EndInit();
@@ -215,5 +233,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button6;
     }
 }

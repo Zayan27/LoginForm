@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BOL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,17 +27,23 @@ namespace OOADproject_CarRental
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            Return re = new Return();
+            this.Hide();
+            re.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Rental rental = new Rental();
+            this.Hide();
+            rental.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Customer customer = new Customer();
+            this.Hide();
+            customer.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)
